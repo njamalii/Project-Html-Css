@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="Signin.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="menu">   
+                <li>
+                    <a href="index.html" class="menulink" target="_self"><i class="material-icons">home</i></a>
+                </li>              
+                <li>
+                    <a href="About.html" class="menulink" target="_blank">About</a>
+                </li>
+                <li>
+                    <a href="Login.html" class="menulink" target="_blank">Login</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="menulink" target="_blank">Contact</a>
+                </li>
+                <li>
+                    <a href="Quiz.html" class="menulink" target="_blank">Quize</a>
+                </li>
+                <li>
+                    <a href="#" class="links"><i class="material-icons">phone</i>Tel: +98 (123) 456 8790</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="centered">
+    <form method="get" autocomplete="off"> 
+    <fieldset>
+        <legend>Sign-in</legend>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="Name" placeholder="Your name" maxlength="15" class="inputes" required autofocus>
+        <br/>
+        <label for="lname">Surname:</label>
+        <input type="text" id="lname" name="Surname" placeholder="Your Surname" maxlenght="20" class="inputes" required>
+        <br/>
+        <label for="natid">National Id:</label>
+        <input type="text" id="natid" name="nationalid" placeholder="E.g:371-092-156-6" maxlength="13" class="inputes" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{1}" required>
+        <br/>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phonenumber" placeholder="E.g:0913-2055012" maxlength="12" class="inputes" pattern="[0-9]{4}-[0-9]{7}" required>
+        <br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" placeholder="E.g:name@gmail.com" maxlength="25" class="inputes" pattern="[A-Za-z]@[A-Za-z].com" required>
+        <br/>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" placeholder="Your password" maxlength="8" class="inputes" required>
+        <br/>
+        <label for="cpass">Confirm password:</label>
+        <input type="password" id="cpass" name="confirmpass" placeholder="Re-enter password" maxlength="8" class="inputes" required>
+        <br/>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" id="DOB" name="Birthdate" class="inputes" required>
+        <br/>
+        <label for="ages">Age:</label>
+        <input type="number" id="ages" name="Age" min="18" max="80" class="inputes" required>
+        <br/>
+        <label for="gen">Gender:</label>
+        <label>Female</label>
+        <input type="radio" id="gen" name="gender">
+        <label>Male</label>
+        <input type="radio" id="gen" name="gender">
+        <br/>
+        <input type="submit" class="sbutton">
+        <input type="reset" class="sbutton">
+        <br/>
+        <a href="Login.html" target="_blank" id="linktwo">Already signed-in?</a>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>

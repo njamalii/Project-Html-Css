@@ -1,0 +1,85 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 72, 209);
+}
+.menulink{
+    font-size: 16px;
+    font-family: cursive;
+    color:rgba(246, 239, 239, 0.847);
+    text-decoration: none;
+    padding-right: 20px;
+}
+a:hover{
+    color:yellow;
+    font-style: italic;
+}
+a:active{
+    color: darkgreen;
+}
+.links{
+    font-size: 16px;
+    font-family: cursive;
+    color: rgba(246, 239, 239, 0.847);
+    text-decoration: none;
+    padding-left: 550px;
+}
+.navbar{
+    background-color: rgb(12, 69, 149);
+    padding: 0;
+    margin: 0;
+    line-height: 80px;
+}
+.menu{  
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    margin-left: 100px;
+}
+.centers{
+    padding-left: 500px;
+    padding-top: 100px;
+}
+fieldset{
+    height: 250px;
+    width:250px;
+    text-align: center;
+    border-radius: 20px;
+    border:double black 6px;
+}
+legend{
+    color:antiquewhite;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+label{
+    font-style: italic;
+    color:azure;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive;
+}
+.inputs{
+    background-color: rgb(101, 194, 225);
+    height: 20px;
+    width:200px;
+    border-radius: 15px;
+    font-style: italic;
+}
+.buttons{
+    background-color: rgb(109, 16, 196);
+    color:beige;
+    width:90px;
+    height:30px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+.buttons:hover{
+    background-color: yellowgreen;
+    color:red;
+    font-weight: bold;
+}
+#linkone{
+    color:darkblue;
+}

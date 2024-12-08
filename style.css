@@ -1,0 +1,129 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/images2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menulink{
+    font-size: 16px;
+    font-family: cursive;
+    color:rgba(246, 239, 239, 0.847);
+    text-decoration: none;
+    padding-right: 20px;
+}
+a:hover{
+    color:yellow;
+    font-style: italic;
+}
+a:active{
+    color: darkgreen;
+}
+.links{
+    font-size: 16px;
+    font-family: cursive;
+    color: rgba(246, 239, 239, 0.847);
+    text-decoration: none;
+    padding-left: 550px;
+}
+.navbar{
+    background-color: rgb(12, 69, 149);
+    padding: 0;
+    margin: 0;
+    line-height: 80px;
+}
+.menu{  
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    margin-left: 100px;
+}
+.headingone{
+    text-align: center;
+    color: aliceblue;
+}
+.bookmark{
+    text-align: center;
+}
+.bookmark .bookmarklink{
+    text-align: center;
+    color:aliceblue;
+    text-decoration:none;
+}
+.headingtwo{
+    text-align: center;
+    font-family: cursive;
+    color:rgb(222, 205, 205);
+}
+.p1{
+    text-align: center;
+    font-size: 1.4vw;
+    font-family: cursive;
+    color:aliceblue;
+}
+caption{
+    font-family: cursive;
+    font-size: 18px;
+    color:rgb(67, 11, 119);
+}
+table,th,td{
+    border: 1px solid rgb(0,0,0);
+    text-align: center;
+}
+table{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(81, 124, 185);
+}
+th{
+    width:100px;
+}
+td{
+    height:50px;
+}
+td:hover{
+    background-color: yellowgreen;
+    color:black;
+    font-weight: bold;
+}
+ol{
+    color:aliceblue;
+    margin-left: 500px;
+}
+img{
+    width:350px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer{
+    background-color:rgb(12, 69, 149) ;
+}
+address{
+    color:aliceblue;
+    font-size: 14px;
+    display:flex;
+}
+.gmail{
+    text-decoration: none;
+    color: aliceblue;
+}
+.copyrightbar{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(67, 11, 119);
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+.copyrightbar .left{
+    margin-left: 100px;
+    float:left;
+}
+.copyrightbar .right{
+    margin-right: 100px;
+    float:right;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="menu">  
+                <li>
+                    <a href="index.html" class="menulink" target="_self"><i class="material-icons">home</i></a>
+                </li>                 
+                <li>
+                    <a href="About.html" class="menulink" target="_blank">About</a>
+                </li>
+                <li>
+                    <a href="Login.html" class="menulink" target="_blank">Login</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="menulink" target="_self">Contact</a>
+                </li>
+                <li>
+                    <a href="Quiz.html" class="menulink" target="_blank">Quize</a>
+                </li>
+                <li>
+                    <a href="#" class="links"><i class="material-icons">phone</i>Tel: +98 (123) 456 8790</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="asidel">
+        <h1 class="heading1">Contact Information:</h1>
+        <ul class="unlist">
+            <li>Address:Iran-Tehran-Apadana Street-Niloofar Alley-DoctorDrive Acadamy</li>
+            <li>Telephone:+98 (123) 456 8790</li>
+            <li>Email:doctordrive@gmail.com</li>
+            <li>Telegram:@doctordrive</li>
+        </ul>
+        <img src="images/Tehran2.png" usemap="#image-map">
+            <map name="image-map">
+                <area target="" alt="Tehran" title="Tehran" href="" coords="61,117,69,106,78,95,89,87,100,95,104,102,130,100,147,103,150,114,134,122,119,119,106,112,102,121,106,133,103,142,94,142,79,135,68,132,54,132" shape="poly" onclick="myFunction()">
+            </map>
+            <script>
+                function myFunction(){
+                    alert("Our location: Tehran , Apadana , DoctorDrve acadamy");
+                }
+            </script>
+    </aside>
+    <aside class="asider">
+        <fieldset>
+            <legend>Contact Us</legend>
+        <form method="get" autocomplete="off">
+            <label for="fname">Name:</label>
+            <br/>
+            <input type="text" id="fname" name="name" placeholder="Your name" maxlength="15" class="inputed" required autofocus>
+            <br/>
+            <label for="emails">Email:</label>
+            <br/>
+            <input type="email" id="emails" name="email" placeholder="Your email" maxlength="25" pattern="[A-Za-z]@[A-Za-z].com" class="inputed" required>
+            <br/>
+            <label for="subjects">Subject:</label>
+            <br/>
+            <input type="text" id="subjects" name="subject" placeholder="Your subject" class="inputed" maxlength="10">
+            <br/>
+            <label for="message">Your Message:</label>
+            <br/>
+            <textarea name="message" id="message" col="30" row="10" placeholder="Your message here" class="inputed"></textarea>
+            <br/>
+            <input type="submit" class="butt">
+            <input type="reset" class="butt">
+        </form>
+        </fieldset>
+    </aside>
+</body>
+</html>
